@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family:'Roboto', sans-serif;;
+}
+
+
+.container{
+    width: 900px;
+    margin: auto;
+}
+
+
+
+.fotoname{
+    width: 75%;
+    display: flex;
+    margin-left: 12.5%;
+    
+}
+
+.avatar:first-child {
+    
+    height: 225px; width:150px;   
+    border-radius: 28px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    
+    
+    
+}
+
+.name{
+    flex: 2;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.region {
+    color: #86898f;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    text-decoration: underline;
+}
+
+.region-child{
+    flex: 1;
+    
+}
+
+.region-child:first-child{
+    padding-left: 0px;
+}
+
+.skills{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px auto;
+    text-align: center;
+    background-color: antiquewhite; 
+    border-radius: 28px; 
+}
+
+.skills ul{
+    display: inline-block;
+    list-style: square;
+}
+
+.hardskills{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px auto;
+    text-align: center;
+    background-color:lightcyan;
+    border-radius: 28px;
+}
+
+.hardskills ul{
+    display:inline-block;
+}
+
+.aboutme{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px auto;
+    text-align: center;
+    background-color:lightyellow;
+    border-radius: 28px;
+}
+
+.aboutmeEN{
+    padding: 0 20px 20px 0;
+}
+
+.aboutmeRU{
+    padding: 0 20px 20px 0;
+}
+
+.contacts{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+.contactsEN {
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+.contactsRU{
+    text-align: left;
+    margin-left: 20px;
+}
+
+a{
+    color: #0f141e;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color:grey;
+}
+
+
+
+
